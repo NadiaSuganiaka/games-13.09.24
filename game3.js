@@ -9,4 +9,4 @@ while (number !== 0){
     
 } 
 
- alert ('Time is up!');
+alert ('Time is up!');
