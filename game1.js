@@ -1,6 +1,6 @@
 const min = 1;
 const max = 100;
-const randome = Math.floor(Math.random() * ( max - min)) + min;
+const randomComputerNumber = Math.floor(Math.random() * ( max - min)) + min;
 
 while (true){
     
@@ -11,15 +11,15 @@ while (true){
 
       alert ('error! Pleas, enter random number from 1 to 100');
 
-   } else if (randome > numberRandome){
+   } else if (randomComputerNumber > numberRandome){
 
       alert ('this number is greater than yours');
 
-   } else if (randome < numberRandome){
+   } else if (randomComputerNumber < numberRandome){
 
       alert ('this number is less than yours');
 
-   } else if(randome === numberRandome){
+   } else if(randomComputerNumber === numberRandome){
 
       alert ('You are win!');
       
